@@ -121,8 +121,28 @@ body{
     margin: 10px 0;
 }
 
-
-
-
 /* about-us section */
 
+
+/* testimonials section */
+#testimonials{
+    margin: 100px 0;
+}
+.testimonials{
+    border-right: 4px soild #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;'
+}
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    margin:0 10px;
+    border-radius: 50%;
+}
+.user-detalis{
+    display: inline-block;
+    font-size: 12px;
+}
+
+
+/* testimonials section */
