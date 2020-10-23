@@ -37,17 +37,73 @@ body{
     margin-top: 100px;
 }
 .banner-btn {
+    background-color: #a517ba;
     border: 1px solid #5f1782;
     padding: 5px 15px;
+    transition: .4s ease-in-out;
+    margin-top: 25px;
+    border-radius: 3px;
+}
+.banner-btn:hover{
+    background-color: #fff;
+    color: #000000;
 }
 .banner-btn:focus{
     visibility: hidden;
 }
 
+/* services section */
 
-
-
-
+#services{
+    padding: 80px 0;
+}
+.servic-img{
+    width: 100px;
+    margin-top: 20px;
+}
+.services{
+    padding: 35px;
+}
+.services h4 {
+    padding: 5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.title::before{
+    content: '';
+    background: #7b1798;
+    width: 200px;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(55px);
+}
+.title::after{
+    content: '';
+    background: #7b1798;
+    width: 50px;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(0px);
+}
+#services .btn{
+    box-shadow: none;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    background:linear-gradient(to right ,#a517ba,#5f1782);
+    transition: .4s linear;
+}
+#services .btn:hover{
+    background: #5f1782;
+    color: #fff;
+}
+/* services section */
 
 
 
