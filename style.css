@@ -99,10 +99,7 @@ body{
     background:linear-gradient(to right ,#a517ba,#5f1782);
     transition: .4s linear;
 }
-#services .btn:hover{
-    background: #5f1782;
-    color: #fff;
-}
+
 /* services section */
 
 
