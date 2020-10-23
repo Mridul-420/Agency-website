@@ -146,3 +146,28 @@ body{
 
 
 /* testimonials section */
+
+
+/* social-media section */
+#social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media p{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icon img{
+    width: 60px;
+    transition: .5s;
+    padding-right: 10px;
+}
+.social-icon a:hover img{
+    transform: translateY(-10px);
+}
+
+
+
+/* social-media section */
