@@ -26,6 +26,9 @@ body{
     font-weight: 400;
     text-transform: uppercase;
 }
+#navbarNav {
+    padding: 10px;
+}
 #banner{
     background-image:linear-gradient(to right ,#a517ba,#5f1782);
     color: #fff;
@@ -168,6 +171,62 @@ body{
     transform: translateY(-10px);
 }
 
-
-
 /* social-media section */
+
+
+
+/* footer section */
+#footer{
+    background:linear-gradient(to right ,#a517ba,#5f1782);
+    color: #fff;
+}
+.footer img{
+    width: 100%;
+}
+.footer-box{
+    padding: 50px;
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom:20px;
+}
+.footer-box .fa{
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    margin-right: 8px;
+    padding-top: 7px;
+    border-radius: 2px;
+    text-align: center;
+    background:linear-gradient(to right ,#a517ba,#5f1782);
+}
+.form-control{
+    max-width: 250px;
+    margin-top: 25px;
+    border-radius: 0px;
+    border: none;
+    box-shadow: none !important;
+}
+.footer-box .btn-primary{
+    border-radius: 0px;
+    border: none;
+    box-shadow: none !important;
+    margin-top: 30px;
+    background:linear-gradient(to right ,#a517ba,#5f1782);
+}
+hr {
+    background-color: white;
+}
+.copyright{
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+/* footer section */
